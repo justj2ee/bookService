@@ -8,5 +8,6 @@ insert into BOOK(book_Id, book_name, author,price) values (7,'The Bluest Eye', '
 insert into BOOK(book_Id, book_name, author,price) values (8,'Song Of Solomon', 'Toni Morrison',18.99);
 insert into BOOK(book_Id, book_name, author,price) values (9,'Beloved', 'Toni Morrison',19.99);
 insert into BOOK(book_Id, book_name, author,price) values (10,'Sula', 'Toni Morrison',20.99);
+insert into BOOK(book_Id, book_name, author,price) values (11,'Native Son', 'Richard Wright',21.99);
 
 
