@@ -15,8 +15,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext configurableApplicationContext = SpringApplication.run(DemoApplication.class, args);
 		
-		BookService service = configurableApplicationContext.getBean(BookService.class);
-		System.out.println("=======>"+service.getBook(1));
+		//BookService service = configurableApplicationContext.getBean(BookService.class);
+		//System.out.println("=======>"+service.getBook(1));
 	}
 	
 	/*@Bean

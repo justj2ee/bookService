@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -28,6 +30,8 @@ public class Book implements Serializable {
 	@ApiModelProperty(notes = "The name of the book")
 	private String book_name;
 	@ApiModelProperty(notes = "The book's Author")
+	@NotNull(message = "The author's name is required.")
+	@NotEmpty(message = "The author's name must be entered.")
 	private String author;
 	@ApiModelProperty(notes = "The price of the book Author")
 	private double price;
