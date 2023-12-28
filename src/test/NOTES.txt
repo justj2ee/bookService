@@ -14,3 +14,5 @@ to run the application from the command line do:
 3. java -jar demo-0.0.1-SNAPSHOT.jar
 4. from a web browser try hitting an end point by tying in:
 localhost:8080/book/search/1
+5. from the command line use curl:
+curl http://localhost:8080/book/search/1
