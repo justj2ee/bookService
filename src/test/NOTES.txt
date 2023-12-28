@@ -1,3 +1,5 @@
+https://spring.io/guides/gs/spring-boot/
+
 https://medium.com/@paulkunda/setting-up-h2-for-testing-in-spring-boot-245d3a98e405
 
 https://www.petrikainulainen.net/programming/spring-framework/integration-testing-of-spring-mvc-applications-write-clean-assertions-with-jsonpath/
@@ -5,3 +7,10 @@ https://www.petrikainulainen.net/programming/spring-framework/integration-testin
 https://www.baeldung.com/spring-testing-separate-data-source
 
 https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/
+
+to run the application from the command line do:
+1. change the pom.xml to generate a jar instead of a war file
+2. run mvn clean install
+3. java -jar demo-0.0.1-SNAPSHOT.jar
+4. from a web browser try hitting an end point by tying in:
+localhost:8080/book/search/1
