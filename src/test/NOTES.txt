@@ -3,3 +3,5 @@ https://medium.com/@paulkunda/setting-up-h2-for-testing-in-spring-boot-245d3a98e
 https://www.petrikainulainen.net/programming/spring-framework/integration-testing-of-spring-mvc-applications-write-clean-assertions-with-jsonpath/
 
 https://www.baeldung.com/spring-testing-separate-data-source
+
+https://howtodoinjava.com/spring-boot2/testing/spring-boot-mockmvc-example/

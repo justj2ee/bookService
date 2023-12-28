@@ -66,6 +66,16 @@ public class BookControllerTest {
 	}
 	
 	@Test
+	public void testFailedDeleteBook() throws Exception {
+		//assertFalse(bookRepository.findById(55).isPresent());   //make sure the book does not exists
+		mockMvc.perform(delete("/book/remove/{book_id}",55))
+		.andExpect(status().is4xxClientError())
+		.andExpect(jsonPath("$.status", is(404)));
+		//.andExpect(jsonPath("$.message", is("Book does not exist in our catalog")));
+		
+	}
+	
+	@Test
 	public void testGetBookById() throws Exception {
 		assertTrue(bookRepository.findById(1).isPresent());
 		System.out.println("====================>"+bookRepository.findById(1));
