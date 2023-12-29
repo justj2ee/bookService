@@ -16,3 +16,10 @@ to run the application from the command line do:
 localhost:8080/book/search/1
 5. from the command line use curl:
 curl http://localhost:8080/book/search/1
+
+
+exception handling:
+
+1. https://youtu.be/2o7LJLTIgdE?si=65pXphc6E6GFIn7z
+
+2. https://youtu.be/L2o485T70Do?si=gSlI9Wq7txW4lJyW
